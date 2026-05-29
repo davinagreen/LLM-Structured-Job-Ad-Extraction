@@ -1,0 +1,26 @@
+job_title,job_keyword_true,pred,correct
+senior system engineer - eng,engineer,engineer,True
+expression of interest - implementation consultant,recruiter ,recruiter ,True
+infrastructure engineer,engineer,engineer,True
+auxiliary police officer #urgent,police,police,True
+sales executive,office worker,marketing,False
+"manager, project & program risk management (3-year contract) (5804)",manager,manager,True
+"sales manager singapore, malaysia and brunei",manager,manager,True
+android: developer,engineer,office worker,False
+"assistant director, business development (r00010380)",manager,manager,True
+f&b service crew (near mrt),retail,retail,True
+sales consultant (construction related),retail,blue-collar worker,False
+"sr/executive, clinical & health informatics office",office worker,office worker,True
+"senior officer, reconciliation, retail investment operations center",office worker,blue-collar worker,False
+data science analyst (ai & emerging tech),analyst,analyst,True
+general cleaner (tai seng) part time,blue-collar worker,blue-collar worker,True
+"vp/svp, it infrastructure & system security (sre/api/payments)",engineer,engineer,True
+administrative executive,office worker,analyst,False
+software engineer,engineer,blue-collar worker,False
+executive (sales / social media),marketing,marketing,True
+business operations (admin/accounts) executive and/or intern,office worker,blue-collar worker,False
+research fellow - [2d integrated si photonics] #worknow,researcher,researcher,True
+"ews engineering engineer m/f - 2021-17467, #jobsthatmatter #worknow...",engineer,analyst,False
+chinese enrichment teacher (various location),education,education,True
+"medical laboratory technologist, general surgery",medical ,medical ,True
+"credit risk analyst, hedge funds. #jobsthatmatter",analyst,analyst,True

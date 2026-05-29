@@ -1,0 +1,690 @@
+job_id,y_true,pred,correct
+38380721,senior,senior,True
+38960662,experienced,senior,False
+32227649,entry level,intermediate,False
+38641145,senior,senior,True
+39902251,intermediate,experienced,False
+39750344,experienced,experienced,True
+31597915,experienced,senior,False
+31957650,entry level,senior,False
+35851066,entry level,senior,False
+40715989,experienced,experienced,True
+40359632,senior,senior,True
+30652086,experienced,intermediate,False
+40078060,experienced,senior,False
+34120401,senior,senior,True
+39089487,trainee,entry level,False
+39388511,experienced,senior,False
+32403817,experienced,senior,False
+40778515,intermediate,intermediate,True
+30235194,apprentice,entry level,False
+33946239,entry level,intermediate,False
+33521542,entry level,senior,False
+32139518,entry level,senior,False
+33085623,experienced,senior,False
+32499914,experienced,experienced,True
+34086001,experienced,experienced,True
+40530894,experienced,experienced,True
+35410345,graduate,experienced,False
+29695467,senior,senior,True
+38200603,senior,senior,True
+39226461,intermediate,senior,False
+40272687,head,senior,False
+33683909,senior,intermediate,False
+30088124,supervisor,senior,False
+36522465,lead,senior,False
+32411403,experienced,intermediate,False
+36379449,entry level,senior,False
+34894249,experienced,experienced,True
+38849167,trainee,senior,False
+32277400,entry level,senior,False
+36154607,intermediate,senior,False
+35962612,experienced,experienced,True
+36762377,entry level,intermediate,False
+40246309,experienced,intermediate,False
+34074180,lead,senior,False
+34284714,senior,senior,True
+32424551,entry level,experienced,False
+36242751,experienced,experienced,True
+30859090,assistant,senior,False
+34157864,intermediate,senior,False
+30953155,intermediate,experienced,False
+34293141,experienced assistant,senior,False
+33344810,assistant,entry level,False
+32542273,intermediate,experienced,False
+31437681,lead,entry level,False
+40561804,entry level,experienced,False
+38748995,experienced,experienced,True
+33981637,senior,senior,True
+30023417,experienced,experienced,True
+34176551,experienced,senior,False
+32125073,assistant,senior,False
+31282418,intermediate,senior,False
+34951569,entry level,senior,False
+31252412,senior,senior,True
+40515053,intermediate,senior,False
+38353342,experienced,intermediate,False
+38070412,experienced,experienced,True
+37204082,experienced,senior,False
+38573955,junior,senior,False
+32174921,senior,senior,True
+37433078,intermediate,senior,False
+36341119,senior,senior,True
+39955575,experienced,experienced,True
+36128343,lead,senior,False
+40729715,senior,senior,True
+40518412,intermediate,intermediate,True
+38437803,experienced,intermediate,False
+38864059,associate,senior,False
+39885801,junior,senior,False
+35754939,experienced,entry level,False
+38096159,senior,senior,True
+35171113,intermediate,senior,False
+35673352,junior,senior,False
+33057224,trainee,entry level,False
+39433823,director,senior,False
+35481119,experienced,experienced,True
+37536950,graduate/junior,entry level,False
+36758354,intermediate,intermediate,True
+36777971,intermediate,senior,False
+35123298,senior,senior,True
+32185214,experienced,experienced,True
+40412691,experienced,intermediate,False
+40211302,entry level,senior,False
+32523790,entry level,entry level,True
+36575501,lead,senior,False
+40692661,entry-level,senior,False
+39170700,experienced,senior,False
+31567065,senior,senior,True
+30985595,senior,senior,True
+40301581,assistant,senior,False
+31717472,experienced,senior,False
+31635454,experienced,experienced,True
+38508682,entry level,senior,False
+39711505,senior,senior,True
+32796535,senior,senior,True
+32731590,head,senior,False
+34667631,experienced,senior,False
+31085356,experienced,senior,False
+37123123,assistant,entry level,False
+30256248,junior,entry level,False
+32003478,entry level,entry level,True
+36866327,intermediate,senior,False
+29642540,lead,senior,False
+40421481,experienced,experienced,True
+38580428,senior,senior,True
+38437781,experienced,experienced,True
+40067081,senior,experienced,False
+33471608,entry level,intermediate,False
+34980737,intermediate,experienced,False
+35835763,senior,senior,True
+35338182,experienced,senior,False
+30074153,experienced,experienced,True
+33087272,entry level,senior,False
+32094308,entry level,entry level,True
+29679605,entry level,senior,False
+31133731,entry level,experienced,False
+38009796,experienced,intermediate,False
+35915036,lead,senior,False
+30496934,assistant,entry level,False
+31152993,experienced,senior,False
+29908745,intermediate,senior,False
+30139014,intermediate,intermediate,True
+31521522,graduate/junior,senior,False
+39331165,experienced,experienced,True
+30976279,intermediate,intermediate,True
+34187139,intermediate,intermediate,True
+40466077,manager,senior,False
+40340015,intermediate,senior,False
+36284006,intermediate,senior,False
+35867994,experienced,intermediate,False
+32204749,experienced,senior,False
+30378372,senior,senior,True
+38523227,experienced,senior,False
+35645158,assistant,senior,False
+38016679,entry-level to intermediate,senior,False
+40004713,experienced,experienced,True
+31978809,junior,experienced,False
+36366643,head,senior,False
+38115168,assistant,entry level,False
+39514680,experienced,experienced,True
+40568221,senior,senior,True
+37007041,assistant,senior,False
+30535635,assistant,intermediate,False
+37025641,entry level,senior,False
+37555486,apprentice,experienced,False
+34101462,intermediate,senior,False
+30217848,assistant,senior,False
+38717440,experienced,intermediate,False
+38284599,senior,senior,True
+40114193,experienced,senior,False
+39271370,senior,senior,True
+30524719,intermediate,intermediate,True
+40177208,senior,senior,True
+30581975,entry level,experienced,False
+40542757,experienced,intermediate,False
+32178655,intermediate,senior,False
+34494340,intermediate,senior,False
+40785768,junior,senior,False
+39942614,entry level,experienced,False
+38538173,experienced,senior,False
+33174105,intermediate,senior,False
+35400352,intermediate,intermediate,True
+32820937,entry level,experienced,False
+40566589,lead,senior,False
+37534533,experienced,intermediate,False
+35987060,entry level,entry level,True
+35577699,experienced,senior,False
+38143050,lead,experienced,False
+33917902,intermediate,experienced,False
+32300774,trainee,entry level,False
+32302523,experienced,experienced,True
+40103540,experienced,senior,False
+35337123,senior,senior,True
+38213631,assistant,senior,False
+39626220,intermediate,senior,False
+38334574,entry level,senior,False
+38805362,experienced,senior,False
+31826677,senior,senior,True
+31806937,head,senior,False
+30386722,experienced,intermediate,False
+40812425,senior,senior,True
+30461698,intermediate,senior,False
+37641817,graduate,senior,False
+31894508,student,intermediate,False
+32243867,intermediate,entry level,False
+40410193,intermediate,senior,False
+36013686,experienced,experienced,True
+36827408,senior,senior,True
+40348598,intermediate,senior,False
+34834977,senior,intermediate,False
+33170671,experienced,experienced,True
+40770413,specialist,experienced,False
+38050873,intermediate,senior,False
+34313627,head,senior,False
+30560326,intermediate,intermediate,True
+37479948,experienced,experienced,True
+29805282,experienced,entry level,False
+40606698,senior lead,senior,False
+34092734,junior,senior,False
+31984925,experienced,experienced,True
+34333603,lead,experienced,False
+29769170,junior-intermediate,intermediate,False
+32760741,senior,senior,True
+38150108,experienced,senior,False
+35738449,graduate,entry level,False
+31522973,experienced,experienced,True
+36936701,intermediate,intermediate,True
+35260768,experienced,senior,False
+39671616,intermediate,senior,False
+30583959,senior,experienced,False
+39662353,intermediate,senior,False
+32595602,assistant,senior,False
+30793172,head,senior,False
+38279614,experienced,senior,False
+40857361,junior,senior,False
+35928135,senior,senior,True
+40341988,entry level,intermediate,False
+33265523,senior,senior,True
+39990180,intermediate,experienced,False
+31514165,experienced,intermediate,False
+31605453,experienced,experienced,True
+38468838,entry level,experienced,False
+40771849,senior,senior,True
+30957486,entry level,senior,False
+39361706,senior,senior,True
+37141738,entry level,entry level,True
+36113321,experienced,intermediate,False
+36769541,senior,senior,True
+29743668,experienced,senior,False
+31128950,experienced,experienced,True
+40742808,lead,senior,False
+37827983,experienced,senior,False
+35615599,associate director,senior,False
+35692335,intermediate,senior,False
+32642167,intermediate,intermediate,True
+39561546,intermediate,senior,False
+37375384,intermediate,intermediate,True
+38449324,experienced,senior,False
+40022051,intermediate,senior,False
+32149747,intermediate,senior,False
+35834111,executive,senior,False
+29773730,head,senior,False
+36598244,intermediate,senior,False
+36081572,senior,senior,True
+36769509,experienced,experienced,True
+31675252,senior,intermediate,False
+35440026,intermediate,senior,False
+32607657,apprentice,entry level,False
+30202519,intermediate,senior,False
+39769411,senior,senior,True
+33921639,experienced,experienced,True
+33764073,experienced,senior,False
+31477283,experienced,senior,False
+37675367,senior,senior,True
+37382626,senior,senior,True
+32256076,intermediate,experienced,False
+33840561,experienced,experienced,True
+29934575,intermediate,senior,False
+35126073,intermediate,experienced,False
+31508141,senior,intermediate,False
+31897777,principal,senior,False
+34796135,intermediate,experienced,False
+31270491,intermediate,senior,False
+29817903,intermediate,senior,False
+38431054,intermediate,intermediate,True
+36343737,experienced,senior,False
+39792116,intermediate,intermediate,True
+30787830,experienced,senior,False
+37585825,senior,senior,True
+40158425,junior,senior,False
+39369522,intermediate,experienced,False
+32538777,experienced,senior,False
+36677822,intermediate,intermediate,True
+35806020,intermediate,senior,False
+34048907,intermediate,intermediate,True
+37980391,intermediate,intermediate,True
+31948218,intermediate,intermediate,True
+30997499,lead,senior,False
+30600462,entry level,experienced,False
+36304694,experienced,senior,False
+35891455,entry-level,experienced,False
+35454737,senior,senior,True
+32651406,entry level,senior,False
+37879692,entry level,senior,False
+38119898,senior,senior,True
+30573572,senior,senior,True
+39880276,principal,senior,False
+34032683,entry level,entry level,True
+31341134,intermediate,intermediate,True
+34427503,intermediate,senior,False
+40797567,experienced,senior,False
+31212367,experienced,experienced,True
+34103089,experienced,experienced,True
+31635424,senior,senior,True
+35061216,experienced,experienced,True
+35005923,lead,senior,False
+40056148,intermediate,experienced,False
+40441369,junior,intermediate,False
+29940138,experienced,senior,False
+32560545,experienced,senior,False
+30876107,experienced,senior,False
+34670251,intermediate,experienced,False
+36163054,intermediate,senior,False
+31472115,intermediate,senior,False
+29853996,intermediate,senior,False
+31284311,experienced,experienced,True
+37795745,intermediate,senior,False
+36687115,lead,experienced,False
+30813832,experienced,senior,False
+32566011,senior,senior,True
+31518339,experienced,intermediate,False
+31605047,entry level,intermediate,False
+30502783,intermediate,senior,False
+39683897,junior,entry level,False
+38369990,experienced,intermediate,False
+33283440,experienced,senior,False
+32236819,assistant,senior,False
+39263537,experienced,experienced,True
+32037435,chief,senior,False
+35203072,assistant,experienced,False
+36493986,experienced,senior,False
+36260611,senior,senior,True
+30487675,senior,entry level,False
+36513093,graduate,experienced,False
+31677018,senior,senior,True
+39566825,experienced,senior,False
+33729300,lead,senior,False
+37730176,experienced,senior,False
+36522869,intermediate,intermediate,True
+34736423,entry level,senior,False
+34338808,assistant,experienced,False
+33833404,intermediate,intermediate,True
+29892226,entry level,entry level,True
+37817154,junior,experienced,False
+32155231,director,senior,False
+34615362,head,senior,False
+35518216,entry level,intermediate,False
+40775949,lead,senior,False
+31299459,lead,senior,False
+35390906,entry level,intermediate,False
+29789255,head,senior,False
+29750283,experienced,intermediate,False
+31823153,experienced,senior,False
+39580552,assistant,senior,False
+39374413,junior,senior,False
+32409518,intermediate,experienced,False
+33479234,associate,senior,False
+40160330,experienced,experienced,True
+38178018,senior,senior,True
+38923662,junior,senior,False
+35246928,principal,senior,False
+34754003,senior,senior,True
+40062460,junior-to-intermediate,senior,False
+40635251,intermediate,intermediate,True
+39891189,entry level,senior,False
+35618444,junior,intermediate,False
+40206227,head,senior,False
+39663628,assistant,senior,False
+39388733,experienced,intermediate,False
+31925979,experienced,senior,False
+35482555,experienced,experienced,True
+39482865,experienced,experienced,True
+37896910,independent,senior,False
+36104108,experienced,experienced,True
+33712342,entry level,experienced,False
+39046797,experienced,experienced,True
+34923757,experienced,senior,False
+35124027,experienced,senior,False
+36197921,entry level,intermediate,False
+34375456,entry level,senior,False
+37011209,experienced,entry level,False
+36694981,intermediate,entry level,False
+32603988,experienced,senior,False
+31164335,experienced,senior,False
+36002264,experienced,senior,False
+38015238,experienced,experienced,True
+40175618,intermediate,experienced,False
+40439017,entry level,experienced,False
+39577612,assistant,senior,False
+36750856,intermediate,intermediate,True
+39075725,entry level,intermediate,False
+40586274,senior,senior,True
+39512759,intermediate,intermediate,True
+30879242,senior,senior,True
+30405248,lead,senior,False
+35281853,experienced,senior,False
+38783395,lead,senior,False
+40869843,intermediate,intermediate,True
+34961491,senior,senior,True
+32716943,intermediate,intermediate,True
+39507771,associate-director,senior,False
+37110701,experienced,senior,False
+32343153,senior,senior,True
+34025423,senior,senior,True
+32387775,third-year apprentice,entry level,False
+30861686,intermediate,experienced,False
+34311535,intermediate,entry level,False
+40192713,associate,senior,False
+39858289,experienced assistant,senior,False
+33823554,senior,experienced,False
+39912298,entry level,experienced,False
+39016100,senior,senior,True
+32273320,senior,experienced,False
+37447649,entry level,intermediate,False
+38150162,experienced,experienced,True
+38898518,senior,experienced,False
+33055297,head,senior,False
+38319500,early-career,experienced,False
+29673776,experienced,senior,False
+37282165,experienced,experienced,True
+37438757,intermediate,senior,False
+36529472,experienced,experienced,True
+31247720,cadet,senior,False
+30191927,senior,senior,True
+36159193,senior,senior,True
+33671808,entry level,senior,False
+36510801,entry level,senior,False
+37777539,experienced,experienced,True
+39824133,assistant,experienced,False
+30138699,experienced,experienced,True
+32598714,senior,senior,True
+34802288,deputy,senior,False
+30656170,principal,senior,False
+34338414,intermediate,senior,False
+31217001,intermediate,senior,False
+34312101,experienced,senior,False
+34790906,assistant,intermediate,False
+33549808,experienced,senior,False
+38168809,assistant,senior,False
+37916151,intermediate,intermediate,True
+37421604,assistant,entry level,False
+31743801,lead,senior,False
+31143541,experienced,experienced,True
+36192018,intermediate,senior,False
+40483894,experienced,experienced,True
+37252999,experienced,intermediate,False
+40428438,senior,senior,True
+31727926,experienced,intermediate,False
+31715967,experienced,experienced,True
+29536797,experienced,senior,False
+34711342,entry level,intermediate,False
+30001202,experienced,experienced,True
+36909132,experienced,experienced,True
+31137861,experienced,senior,False
+38560461,trainee,entry level,False
+32736398,entry level,entry level,True
+30560879,assistant,entry level,False
+30239160,experienced,senior,False
+40825140,assistant,experienced,False
+33277191,executive,senior,False
+33568319,senior,senior,True
+30139414,intermediate,senior,False
+36636665,entry level,intermediate,False
+37900846,intermediate,senior,False
+40130145,intermediate,senior,False
+31231778,entry level,intermediate,False
+37391585,experienced,senior,False
+36776424,intermediate,senior,False
+31518441,experienced,senior,False
+35183678,assistant,senior,False
+40915338,intermediate,intermediate,True
+33507933,entry level,intermediate,False
+32791129,experienced,intermediate,False
+35423032,experienced,experienced,True
+36115555,intermediate,intermediate,True
+30172562,intermediate,senior,False
+40081779,senior,senior,True
+40461211,associate director,senior,False
+38749842,intermediate,experienced,False
+37196904,senior,senior,True
+29998335,trainee,entry level,False
+33355389,intermediate,senior,False
+39413685,supervisor,intermediate,False
+30126433,intermediate,intermediate,True
+38144421,head,senior,False
+31923370,intermediate,intermediate,True
+40924785,entry level,senior,False
+37395021,trainee,entry level,False
+38645416,experienced,senior,False
+31227659,intermediate,intermediate,True
+35051630,entry level,intermediate,False
+32496964,intermediate,senior,False
+34554105,experienced,senior,False
+40021573,experienced,experienced,True
+40511006,associate,senior,False
+34150934,intermediate,senior,False
+34977006,lead,senior,False
+34241205,intermediate,senior,False
+30470343,lead,senior,False
+36945617,lead,senior,False
+33894803,intermediate,senior,False
+39244572,intermediate,experienced,False
+40755883,junior,experienced,False
+33109254,intermediate,intermediate,True
+39705927,experienced,senior,False
+35477589,head,senior,False
+34059122,intermediate,senior,False
+40926164,experienced,senior,False
+37067683,intermediate,entry level,False
+31535336,intermediate,senior,False
+35956202,senior,senior,True
+35973915,intermediate,intermediate,True
+38110728,intermediate,experienced,False
+36830813,intermediate,intermediate,True
+38221499,cadet,senior,False
+34996401,intermediate,experienced,False
+38674237,experienced,senior,False
+34363930,experienced,senior,False
+39071839,senior,senior,True
+36547163,senior/principal,senior,False
+31539189,senior,senior,True
+31503867,senior,senior,True
+36399274,intermediate,entry level,False
+32056578,experienced,experienced,True
+35040638,entry level,intermediate,False
+40827945,experienced,senior,False
+40702765,experienced,experienced,True
+39109081,principal,senior,False
+38206107,head,senior,False
+39002307,executive,senior,False
+36188912,intermediate,entry level,False
+31718357,senior,senior,True
+40595236,intermediate,senior,False
+36523700,experienced,experienced,True
+37726994,intermediate,senior,False
+36239783,experienced,experienced,True
+38168958,intermediate management,senior,False
+34397008,junior,entry level,False
+36417161,experienced,senior,False
+40506716,experienced,experienced,True
+39413231,intermediate,senior,False
+31243565,senior,experienced,False
+40814806,intermediate,senior,False
+39537096,experienced,senior,False
+37317008,entry level,experienced,False
+40616248,director,senior,False
+31116834,experienced,experienced,True
+36708152,entry level,senior,False
+38065407,senior,senior,True
+37446090,experienced,experienced,True
+40149584,experienced,experienced,True
+35252604,graduate,entry level,False
+30532993,senior lead,senior,False
+33392330,intermediate,senior,False
+39731845,intermediate,senior,False
+35287902,entry level,senior,False
+32889591,senior,senior,True
+32319710,head,senior,False
+31160151,experienced,experienced,True
+30240331,intermediate,intermediate,True
+40348980,senior,senior,True
+39999781,experienced,senior,False
+34792697,experienced,senior,False
+39986512,intermediate,experienced,False
+40846608,entry level,experienced,False
+40219611,experienced,senior,False
+40113529,experienced,senior,False
+30794295,trainee,entry level,False
+32644625,experienced,intermediate,False
+37208045,lead,experienced,False
+31841101,experienced,experienced,True
+36621527,experienced,senior,False
+34453699,experienced,senior,False
+32445558,entry level,senior,False
+30972462,experienced,intermediate,False
+32393508,experienced,experienced,True
+30463067,intermediate,senior,False
+32488563,lead,senior,False
+40079760,intermediate,entry level,False
+37179481,intermediate,senior,False
+38066575,intermediate,senior,False
+37901739,experienced,senior,False
+33398556,experienced,senior,False
+30653996,senior,senior,True
+32772276,head,senior,False
+39408036,experienced,experienced,True
+34411006,lead,senior,False
+40800226,entry level,experienced,False
+35188045,intermediate,intermediate,True
+29858732,entry level,intermediate,False
+29900149,senior,senior,True
+32756177,senior,senior,True
+33809475,senior,senior,True
+37632072,experienced,senior,False
+30127098,senior,senior,True
+30951565,senior,intermediate,False
+30564225,intermediate,intermediate,True
+37607881,director,senior,False
+31012458,experienced,senior,False
+30103473,senior,senior,True
+30999797,senior,senior,True
+35183543,senior,senior,True
+33398685,specialist,experienced,False
+36760950,experienced,senior,False
+35457651,experienced,experienced,True
+30487352,experienced,senior,False
+36344699,senior,senior,True
+36739075,chief,senior,False
+39851663,experienced,experienced,True
+32454030,intermediate,senior,False
+35709951,experienced,senior,False
+35714995,experienced,senior,False
+38941484,experienced,experienced,True
+34864612,senior,senior,True
+40414951,intermediate,entry level,False
+35234640,senior,senior,True
+38698415,lead,senior,False
+36544799,experienced,experienced,True
+34564003,trainee,experienced,False
+37389747,experienced,intermediate,False
+36564465,entry level,intermediate,False
+33010476,experienced,senior,False
+33070549,intermediate,intermediate,True
+38451625,experienced,experienced,True
+34443126,advanced,intermediate,False
+30188049,executive,senior,False
+33721438,experienced,experienced,True
+36491220,senior,senior,True
+39201628,intermediate,intermediate,True
+36869481,intermediate,senior,False
+36895505,senior,senior,True
+34424900,intermediate,senior,False
+32880939,experienced,senior,False
+31001321,entry level,experienced,False
+39665808,senior,senior,True
+32367307,intermediate,senior,False
+34712529,lead,senior,False
+37039713,experienced,senior,False
+33904976,supervisor,senior,False
+40460719,entry level,senior,False
+40244674,assistant,entry level,False
+40455211,experienced,intermediate,False
+32823982,experienced,senior,False
+38102747,retired,intermediate,False
+36791049,entry level,intermediate,False
+35700989,experienced,senior,False
+34873774,intermediate,intermediate,True
+37087954,intermediate,senior,False
+33428178,senior,senior,True
+36307317,intermediate,senior,False
+40722014,associate,senior,False
+32806941,intermediate,senior,False
+39507989,experienced,experienced,True
+30115438,1st year apprentice,entry level,False
+31756716,experienced,senior,False
+38357362,head,senior,False
+33352034,intermediate,senior,False
+30924026,senior,senior,True
+40001630,trainee,senior,False
+34182204,chief,senior,False
+31264878,experienced,senior,False
+39926415,experienced,senior,False
+37188287,experienced,experienced,True
+40015416,head,senior,False
+32880529,experienced,experienced,True
+32736985,experienced,experienced,True
+40874573,senior,senior,True
+34811466,entry level,entry level,True
+40540858,intermediate,senior,False
+37823231,experienced,experienced,True
+36560120,intermediate,senior,False
+39380245,experienced,experienced,True
+38918341,head,senior,False
+30659112,senior,senior,True
+34783761,intermediate,senior,False
+38924977,experienced,experienced,True
+39629064,head,senior,False
+33101852,senior,senior,True
+35995807,experienced,experienced,True
+33475686,lead,intermediate,False
+36831750,experienced,experienced,True
+40177831,assistant,senior,False
+37321673,experienced,experienced,True
+31644440,experienced,senior,False
+37953784,experienced,experienced,True
+40087169,experienced,senior,False
+38493704,entry level,intermediate,False
+35493658,senior,senior,True
+39647371,associate,senior,False
+33917241,graduate,entry level,False
