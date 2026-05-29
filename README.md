@@ -1,74 +1,51 @@
-# Generative AI for Job Ad Enrichment
+# LLM Structured Job Ad Extraction
 
-Multi-model benchmark project for structured extraction from job ads.
+An LLM-centric project for extracting structured information from noisy job advertisements, with side-by-side benchmarking against rule-based baselines.
+
+## Project Snapshot
+
+- **Goal:** convert raw job-ad text into structured fields for downstream search, matching, and analytics
+- **Task types (4):**
+  - work arrangement (`onsite` / `hybrid` / `remote`)
+  - salary extraction (`min-max-currency-frequency`)
+  - seniority classification
+  - keyword/category classification
+- **Approaches compared:**
+  - rule-based baseline models
+  - proprietary LLMs (OpenAI + OpenRouter)
+  - Llama-2 fine-tuning pipeline (QLoRA/PEFT)
 
 ## Tech Stack
 
-`Python` `PyTorch` `Transformers` `PEFT/QLoRA` `OpenAI API` `OpenRouter` `scikit-learn`
+`Python` `PyTorch` `Transformers` `PEFT/QLoRA` `OpenAI API` `OpenRouter` `scikit-learn` `pandas`
 
-## What This Project Does
+## Benchmark Highlights (Accuracy)
 
-This project compares three solution families on 4 job-ad enrichment tasks:
+- **Work arrangement:** `0.9495` (GPT-4o / Grok 3 mini) vs baseline `0.7475`
+- **Salary extraction:** `0.7954` (GPT-4o mini) vs baseline `0.0282`
+- **Seniority:** `0.6059` (Gemini 2.5 Flash) vs baseline `0.3251`
+- **Keyword:** `0.7600` (GPT-4.1) vs baseline `0.6800`
 
-- Rule-based baselines
-- Proprietary LLMs (OpenAI + OpenRouter models)
-- Llama-2 instruction fine-tuning
-
-Tasks:
-
-- Work arrangement classification (`onsite` / `hybrid` / `remote`)
-- Salary extraction (`min-max-currency-frequency`)
-- Seniority classification
-- Job keyword/category classification
-
-## Key Benchmark Highlights (Accuracy)
-
-- **Work arrangement:** best `0.9495` (GPT-4o, Grok 3 mini) vs baseline `0.7475`
-- **Salary extraction:** best `0.7954` (GPT-4o mini) vs baseline `0.0282`
-- **Seniority:** best `0.6059` (Gemini 2.5 Flash) vs baseline `0.3251`
-- **Keyword:** best `0.7600` (GPT-4.1) vs baseline `0.6800`
-
-Results are computed from CSV outputs under:
-
+Raw outputs are available in:
 - `Journeytothe West/MISC/baseline model results/`
 - `Journeytothe West/MISC/Fine-tune LLMs Results/`
 
-## Resume-Ready Bullets
+## Repository Structure
 
-### English
-
-**Title line**
-
-`Generative AI for Job Ad Enrichment | Python, PyTorch, Transformers, PEFT/QLoRA, OpenAI API, OpenRouter | GitHub`
-
-**Bullet options**
-
-- Built and benchmarked rule-based baselines, proprietary LLMs, and Llama-2 fine-tuning for 4 job-ad enrichment tasks (salary, seniority, keyword, work arrangement).
-- Implemented structured extraction and evaluation pipelines, improving work-arrangement accuracy from `0.75` baseline to `0.95` with top-performing LLMs.
-- Designed prompt-based and fine-tuned model workflows for noisy real-world job-ad text and compared multi-model trade-offs across task difficulty.
-
-### 中文
-
-**项目标题**
-
-`招聘广告生成式 AI 增强 | Python, PyTorch, Transformers, PEFT/QLoRA, OpenAI API, OpenRouter | GitHub`
-
-**描述要点**
-
-- 搭建并对比规则基线、商业大模型 API 与 Llama-2 微调三类方案，覆盖薪资、职级、岗位关键词与办公方式 4 个任务。
-- 实现结构化抽取与评测流水线，在办公方式识别任务中将准确率从基线约 `0.75` 提升到约 `0.95`。
-- 针对真实招聘文本噪声与标签差异，完成多模型效果对比并分析任务难度与模型选择的权衡。
-
-## Repository Layout
-
-- `Journeytothe West/Code/Baseline Models/`: rule-based baseline scripts
-- `Journeytothe West/Code/Proprietary Models/`: OpenAI/OpenRouter evaluation scripts
-- `Journeytothe West/Code/fine_tuning_LLMs/`: Llama-2 fine-tuning scripts and notebooks
-- `Journeytothe West/MISC/Input file dataset/`: input CSV datasets
-- `Journeytothe West/MISC/baseline model results/`: baseline outputs
-- `Journeytothe West/MISC/Fine-tune LLMs Results/`: multi-model outputs
+- `Journeytothe West/Code/Baseline Models/`  
+  Rule-based scripts for the 4 tasks
+- `Journeytothe West/Code/Proprietary Models/`  
+  Evaluation scripts for OpenAI/OpenRouter models
+- `Journeytothe West/Code/fine_tuning_LLMs/`  
+  Llama-2 fine-tuning scripts and notebooks
+- `Journeytothe West/MISC/Input file dataset/`  
+  Input CSV datasets
+- `Journeytothe West/MISC/Fine-tune LLMs Results/`  
+  Multi-model inference outputs
 
 ## Quick Start
+
+### 1) Environment setup
 
 ```bash
 python -m venv .venv
@@ -77,13 +54,48 @@ pip install -r "Journeytothe West/MISC/requirements.txt"
 pip install pandas scikit-learn tqdm openai chardet datasets
 ```
 
-Run a baseline example:
+### 2) Run baseline models
 
 ```bash
 python "Journeytothe West/Code/Baseline Models/baseline_work_ar.py"
+python "Journeytothe West/Code/Baseline Models/baseline_salary.py"
+python "Journeytothe West/Code/Baseline Models/baseline_seniority.py"
+python "Journeytothe West/Code/Baseline Models/baseline_keywords.py"
 ```
 
-For API evaluations, set your API key + model name in:
+### 3) Run proprietary LLM evaluations
 
+Set your API key and target model in:
 - `Journeytothe West/Code/Proprietary Models/OpenAI.py`
 - `Journeytothe West/Code/Proprietary Models/OpenRouter.py`
+
+Then execute:
+
+```bash
+python "Journeytothe West/Code/Proprietary Models/OpenAI.py"
+# or
+python "Journeytothe West/Code/Proprietary Models/OpenRouter.py"
+```
+
+### 4) Run Llama-2 fine-tuning
+
+See:
+- `Journeytothe West/Code/fine_tuning_LLMs/train.py`
+- `Journeytothe West/Code/fine_tuning_LLMs/myllama.py`
+- notebooks under `Journeytothe West/Code/fine_tuning_LLMs/`
+
+## Resume Version (Copy-Paste)
+
+**Title**
+
+`LLM Structured Job Ad Extraction | Python, PyTorch, Transformers, PEFT/QLoRA, OpenAI API, OpenRouter | GitHub`
+
+**Bullet**
+
+Built and benchmarked rule-based baselines, proprietary LLM APIs, and Llama-2 fine-tuning for 4 job-ad extraction tasks (salary, seniority, keyword, work arrangement), with best-task accuracy reaching 0.95 and clear gains over baseline methods.
+
+## Notes
+
+- This repository is an academic project with experiment artifacts.
+- Some scripts are exploratory and may require path adjustments before rerun.
+- API-based scripts require your own credentials.
